@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(88, 88, 88);
+}
+
+h1   {
+    color: #99ff0095;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p    {
+    color: rgb(200, 198, 192);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#99ff0095 ;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: rgb(221, 49, 49);
+  }
